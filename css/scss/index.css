@@ -1,0 +1,37 @@
+body {
+  font-family: "Qwitcher Grypen", sans-serif;
+}
+
+header nav {
+  background-image: linear-gradient(to right, #5fb4f5 0, #56f5f8 51%, #5f62f5 100%);
+  background-size: 200%;
+  box-shadow: 5px 10px 8px #888888;
+  border-radius: 10px;
+}
+header nav .navbar-brand {
+  font-size: 50px;
+  color: rgba(65, 105, 225, 0.6745098039);
+  transition: all 0.5s;
+}
+header nav .navbar-brand:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  color: aliceblue;
+}
+header nav img {
+  width: 16%;
+  height: 150px;
+}
+header nav .collapse {
+  margin-left: 40%;
+}
+header nav .navbar-nav a {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-inline: 15px;
+  transition: all 0.5s;
+  color: black;
+}
+header nav .navbar-nav a:hover {
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  color: pink;
+}/*# sourceMappingURL=index.css.map */

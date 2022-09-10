@@ -1,0 +1,330 @@
+body {
+    font-family: Impact;
+    margin: 0px auto;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    font-size: 157%;
+}
+.navbar-collapse{
+    flex-grow:0;
+}
+#navbar_items .nav-link{
+    color: gold;
+}
+#navbar_items .nav-link:hover {
+    color: pink;
+
+}
+#navbar_items .nav-link::after{
+    content: " ";
+    width: 0;
+    height: 2px;
+    background-color: rgb(186, 14, 220);
+    display: block;
+    transition: all .5s;
+}
+/* /sau hover */
+#navbar_items .nav-link:hover:after{
+    width: 100%;
+    
+}
+#navbar_items .active .nav-link::after{
+width: 100%;
+}
+
+
+img.d-block.w-100 {
+    width: 100% !important;
+
+}
+#carousel-id .carousel-item>img{
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(70%);
+}
+#carousel-id .carousel-caption{
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#carousel-id .carousel-caption h2{
+    font-size: 4rem;
+}
+/* header */
+
+
+
+
+
+
+.Characterintroduction {
+    background-color: rgb(24, 22, 22);
+    margin: 0px;
+}
+
+.Characterintroduction .Characte-items {
+    text-align: center;
+    font-size: 235%;
+    color: azure;
+}
+
+.Characterintroduction .Characte-items h1 {
+    margin: 0px;
+    font-size: 6.5rem;
+}
+
+.Characte-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: auto;
+
+}
+
+.Characte-box .Characte-text1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.Characte-box .Characte-text1 img {
+    width: 90%;
+    height: 90%;
+    border-radius: 20px;
+}
+
+.Characte-overlay {
+    width: 90%;
+    height: 90%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.Characte-text1:hover .Characte-overlay {
+    opacity: 1;
+}
+
+
+.Characte-overlay:hover .Characte-icon img {
+    transform: translateY(120px);
+}
+
+.Characte-overlay .Characte-icon img {
+    position: absolute;
+    right: 7px;
+    top: -97px;
+    width: 24%;
+    height: 19%;
+    transform: translateY(100px);
+    transition: all .5s;
+}
+
+.Characte-overlay:hover .Characte-document {
+
+    transform: translateY(-20px);
+
+}
+
+
+.Characte-document {
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
+    transform: translateY(100px);
+    transition: all 0.5s;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+}
+
+.icon {
+    position: fixed;
+    right: 12px;
+    bottom: 200px;
+    z-index: 100;
+    width: 200px;
+    height: 100px;
+}
+
+.icon a {
+    position: absolute;
+    display: block;
+    width: 248px;
+    height: 400px;
+    overflow: hidden;
+    text-indent: 85%;
+    white-space: nowrap;
+    background-image: url(/img/27587-8-dragon-ball-super.png);
+    background-size: 203px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.samplephoto {
+    position: absolute;
+    left: -13%;
+    width: 494px;
+    height: 1000px;
+    background: url(/img/911fb9d24b1e96475b898a619f23879e.png) no-repeat 0 0;
+    background-size: 482px auto;
+}
+
+.samplephoto1 {
+    position: absolute;
+    right: 0%;
+    width: 19%;
+    height: 1000px;
+    background: url(/img/7bc6c1a09196c8d6e432f3b69c6babb9.png) no-repeat 0 0;
+    background-size: cover;
+    object-fit: cover;
+}
+
+
+
+.PHOTOS-IN-THE-MOVIE .items {
+    text-align: center;
+    font-size: 49px;
+}
+
+.PHOTOS-IN-THE-MOVIE .items h1 {
+    color:whitesmoke;
+    font-size: 7.5rem;
+}
+.PHOTOS-IN-THE-MOVIE .items h2{
+    color: thistle;
+}
+.PHOTOS-IN-THE-MOVIE {
+    background-image: url(/img/for-dragon-ball-z-fans.-wallpaper_.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    background-attachment: fixed;
+}
+.PHOTOS-IN-THE-MOVIE .picture{
+    position: absolute;
+    left: -15%;
+    width: 494px;
+    height: 96%;
+    background-image: url(/img/ETSDrF9XQAY5vWc.png);
+    background-size: 587px auto;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.PHOTOS-IN-THE-MOVIE .picture1{
+    position: absolute;
+    right: 0%;
+    width: 333px;
+    height: 85%;
+    background-image: url(/img/goku_black_ssj_rose_render_2__alt_1__by_ssjrose890_ddle1ko-fullview.png);
+    background-size: 482px auto;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.PHOTOS-IN-THE-MOVIE .number {
+    background-image: url(/img/gohan-dragon-ball-super-hero.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16% 12%;
+    text-align: center;
+}
+.PHOTOS-IN-THE-MOVIE .number__content {
+    display: flex;
+    justify-content: space-around;
+    font-size: 190%;
+    color: white;
+}
+.PHOTOS-IN-THE-MOVIE .number_items {
+    padding-inline: 10px;
+}
+.PHOTOS-IN-THE-MOVIE .number__content .number_items p {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color:rgba(255, 192, 203, 0.776) ;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}
+
+
+.blog {
+    text-align: center;
+    background-image:url(/img/ozaru-rose-gorilla-monkey-giant-kyojin-big-power-man-animal.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: pink;
+}
+
+.blog .blog-title h2 {
+    font-size: 100px;
+    font-weight: 400;
+}
+
+.blog .blog-title .items1 {
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.blog-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: ; */
+    
+}
+
+.blog-content .blog__item1 {
+    /*c1: đường bắt đầu / đường kết thúc*/
+    /* grid-column:1/3 ;
+    grid-row:1/3 ;*/
+    /*c1: đường bắt đầu cần  / span số cột cần chiếm */
+    grid-column: 1/span 2;
+    grid-row: 1/span 2;
+}
+
+.blog-content .blog__item10 {
+    grid-column: 3/ span 2;
+    grid-row: 3/ span 2;
+}
+
+/*trước khi hover*/
+.blog .blog-content .blog_items img {
+    width: 100%;
+    height: 100%;
+    filter: brightness(10%);
+    transition: all 1s;
+}
+
+/*sau khi hover*/
+.blog .blog-content .blog_items:hover img{
+    filter: brightness(70%);
+}
+
+
+
+
+/* /number */
+
+
