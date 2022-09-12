@@ -21,18 +21,34 @@ header {
             height: 150px;
         }
         .collapse{
-         margin-left:40% ;
+         margin-left: 33% ;
         }
-        .navbar-nav a {
+        .navbar-nav a{
             font-size: 30px;
-            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             margin-inline: 15px;
             transition: all 0.5s;
-            color: black;
+            list-style: none;
         }
-        .navbar-nav a:hover{
-            text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-            color: pink;
+        .nav-link1{
+        background-image: url(/img/d4stv0x-65a80c69-c4fc-49e3-9323-88975e52f6e3.gif);
+        background-size: cover;
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        .nav-link2{
+            background-image: url(/img/gohan-future.gif);
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
         }
-    }
-}
+        .nav-link3{
+            background-image: url(/img/asta-black-asta.gif);
+            background-size: cover;
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+    }}}
