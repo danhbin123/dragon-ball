@@ -3,38 +3,55 @@ body {
     margin: 0px auto;
 }
 .container{
-    width: 1140px;
-    margin: auto;
+    width: 1400px;
+    margin-inline: auto;
 }
-
 header{
-    position: absolute;
     top: 0;
     left: 0;
     z-index: 999;
     width: 100%;
     font-size: 157%;
+    background-color: aliceblue;
+    position: fixed;
+}
+.navbar span{
+    color: black;
+    transition: all 0.5s;
+    font-size: 40px;
+}
+.navbar img {
+    width:100px;
+    height: 70px;
+}
+.navbar .box-icon{
+    display: flex;
+    list-style: none;
+}
+
+header:hover span{
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(229, 255, 0), 0 0 5px rgb(137, 139, 0);
 }
 .navbar-collapse{
-    flex-grow:0;
+    flex-grow: 0 ;
 }
 #navbar_items .nav-link{
-    color: gold;
+    color: black;
+    transition: all 0.5s;
 }
 #navbar_items .nav-link:hover {
-    color: pink;
-
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0 0 25px rgb(229, 255, 0), 0 0 5px rgb(137, 139, 0);
 }
 #navbar_items .nav-link::after{
-    content: " ";
+    content: "";
     width: 0;
     height: 2px;
-    background-color: rgb(186, 14, 220);
+    background-color: rgb(14, 10, 1);
     display: block;
     transition: all .5s;
 }
 /* /sau hover */
-#navbar_items .nav-link:hover:after{
+#navbar_items .nav-link:hover::after{
     width: 100%;
     
 }
@@ -47,7 +64,7 @@ img.d-block.w-100 {
     width: 100% !important;
 
 }
-#carousel-id .carousel-item>img{
+#carousel-id .carousel-item img{
     height: 100vh;
     object-fit: cover;
     filter: brightness(70%);
@@ -327,4 +344,70 @@ img.d-block.w-100 {
 
 /* /number */
 
-
+/*footer*/
+footer {
+    position: relative;
+    padding: 39px 40px;
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    color: #fff;
+    background: #000;
+    overflow: hidden;
+    z-index: 1;
+}
+footer .caution {
+    float: left;
+    color: #cdcdcd;
+}
+footer .privacy {
+    margin-top: 100px;
+    text-align: right;
+    list-style: none;
+}
+footer .caution ul li {
+    display: inline-block;
+    line-height: 55px;
+}
+footer .caution p {
+    margin-top: 15px;
+    line-height: 1.66;
+}
+footer .privacy ul li a {
+    font-size: 19.2px;
+    font-size: 19.2px;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #acacac;
+    letter-spacing: .12em;
+}
+footer .privacy ul li{
+    list-style: none;
+}
+footer .caution ul li.bne img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+footer .caution ul li.shueisha img {
+    width: 150px;
+    height: 100px;
+    vertical-align: middle;
+}
+footer .caution ul li.shueisha2 img {
+    width: 100px;
+    height: 100px;
+    vertical-align: middle;
+}
+footer .footer-items{
+    display: flex;
+}
+footer .footer-items ul {
+    margin-inline:20px ;
+    list-style: none;
+}
+footer .footer-items h1{
+    color: cadetblue;
+}
+footer .footer-items li{
+    color: #636363;}
